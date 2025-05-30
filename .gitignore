@@ -34,3 +34,6 @@ replay_pid*
 # OS
 .DS_Store
 Thumbs.db
+
+# Config with sensible data
+src/main/resources/application.yml
