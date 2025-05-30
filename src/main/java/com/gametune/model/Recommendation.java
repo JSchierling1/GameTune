@@ -14,8 +14,9 @@ public class Recommendation {
     @ManyToOne
     private HardwareProfile hardware;
 
-    private String quality;
+    @Enumerated(EnumType.STRING)
+    private Quality quality; //Setting like "Low", "Medium", "High", "Ultra". Later support for custom settings can be added.
     private String resolution;
-    private String dlss;
+    private String frameGen;
     private int estimatedFps;
 }

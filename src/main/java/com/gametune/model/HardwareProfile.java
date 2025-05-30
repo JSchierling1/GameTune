@@ -4,11 +4,18 @@ import jakarta.persistence.*;
 
 @Entity
 public class HardwareProfile {
+
     @Id
     @GeneratedValue
     private Long id;
 
     private String cpu;
-    private String gpu;
-    private int ram;
+
+    @Enumerated(EnumType.STRING)
+    private GpuVendor gpuVendor;
+    private String gpuModel;
+    private boolean supportsFrameGen;
+    private int gpuMemory; //in GB
+
+    private int ram; //in GB
 }
