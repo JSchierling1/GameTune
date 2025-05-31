@@ -6,16 +6,39 @@ import jakarta.persistence.Embeddable;
 public class HardwareRequirement {
 
     private String cpu;
-    private String gpu;
+    private String gpuModel;
     private int ram;
 
     public HardwareRequirement() {}
 
-    public HardwareRequirement(String cpu, String gpu, int ram) {
+    public HardwareRequirement(String cpu, String gpuModel, int ram) {
         this.cpu = cpu;
-        this.gpu = gpu;
+        this.gpuModel = gpuModel;
         this.ram = ram;
     }
 
     // Getter und Setter
+    public String getCpu() {
+        return cpu;
+    }
+
+    public void setCpu(String cpu) {
+        this.cpu = cpu;
+    }
+
+    public String getGpu() {
+        return gpuModel;
+    }
+
+    public void setGpu(String gpuModel) {
+        this.gpuModel = gpuModel;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public void setRam(int ram) {
+        this.ram = ram;
+    }
 }

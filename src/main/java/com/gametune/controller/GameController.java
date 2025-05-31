@@ -20,4 +20,9 @@ public class GameController {
     public List<Game> getAllGames() {
         return gameRepository.findAll();
     }
+
+    @PostMapping
+    public Game addGame(@RequestBody Game game){
+        return gameRepository.save(game);
+    }
 }
