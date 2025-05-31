@@ -17,7 +17,7 @@ public class HardwareRequirement {
         this.ram = ram;
     }
 
-    // Getter und Setter
+    // Getters and Setters
     public String getCpu() {
         return cpu;
     }
