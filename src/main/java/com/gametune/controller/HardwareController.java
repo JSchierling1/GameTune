@@ -1,7 +1,7 @@
 package com.gametune.controller;
 
 import org.springframework.web.bind.annotation.*;
-import com.gametune.model.HardwareProfile;
+import com.gametune.model.hardware.HardwareProfile;
 import com.gametune.repository.HardwareRepository;
 
 import java.util.List;

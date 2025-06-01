@@ -2,7 +2,7 @@ package com.gametune.repository;
 
 import com.gametune.model.Recommendation;
 import com.gametune.model.Game;
-import com.gametune.model.HardwareProfile;
+import com.gametune.model.hardware.HardwareProfile;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

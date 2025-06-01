@@ -25,4 +25,9 @@ public class GameController {
     public Game addGame(@RequestBody Game game){
         return gameRepository.save(game);
     }
+
+    @DeleteMapping
+    public void deleteGameById(@RequestParam Long id) {
+        gameRepository.deleteById(id);
+    }
 }

@@ -1,5 +1,6 @@
 package com.gametune.model;
 
+import com.gametune.model.hardware.HardwareProfile;
 import jakarta.persistence.*;
 
 @Entity
@@ -16,21 +17,13 @@ public class Game {
     private boolean supportsDLSS;
     private boolean supportsFSR;
 
-    @Embedded
-    @AttributeOverrides({
-            @AttributeOverride(name = "cpu", column = @Column(name = "min_cpu")),
-            @AttributeOverride(name = "gpuModel", column = @Column(name = "min_gpu")),
-            @AttributeOverride(name = "ram", column = @Column(name = "min_ram"))
-    })
-    private HardwareRequirement minRequirements;
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "min_profile_id")
+    private HardwareProfile minRequirements;
 
-    @Embedded
-    @AttributeOverrides({
-            @AttributeOverride(name = "cpu", column = @Column(name = "rec_cpu")),
-            @AttributeOverride(name = "gpuModel", column = @Column(name = "rec_gpu")),
-            @AttributeOverride(name = "ram", column = @Column(name = "rec_ram"))
-    })
-    private HardwareRequirement recRequirements;
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "rec_profile_id")
+    private HardwareProfile recRequirements;
 
     //Getters and Setters
     public Long getId(){
@@ -81,19 +74,19 @@ public class Game {
         return supportsFSR;
     }
 
-    public HardwareRequirement getMinRequirements() {
+    public HardwareProfile getMinRequirements() {
         return minRequirements;
     }
 
-    public void setMinRequirements(HardwareRequirement minRequirements) {
+    public void setMinRequirements(HardwareProfile minRequirements) {
         this.minRequirements = minRequirements;
     }
 
-    public HardwareRequirement getRecRequirements() {
+    public HardwareProfile getRecRequirements() {
         return recRequirements;
     }
 
-    public void setRecRequirements(HardwareRequirement recRequirements) {
+    public void setRecRequirements(HardwareProfile recRequirements) {
         this.recRequirements = recRequirements;
     }
 }

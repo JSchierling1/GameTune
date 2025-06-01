@@ -1,5 +1,6 @@
 package com.gametune.model;
 
+import com.gametune.model.hardware.HardwareProfile;
 import jakarta.persistence.*;
 
 @Entity
