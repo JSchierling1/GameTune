@@ -37,8 +37,8 @@ public class GpuController {
         jdbc.execute("ALTER SEQUENCE gpu_id_seq RESTART WITH 1");
     }
 
-    @DeleteMapping
-    public void deleteGpuById(@RequestParam Long id) {
+    @DeleteMapping("/{id}")
+    public void deleteGpuById(@PathVariable Long id) {
         gpuRepository.deleteById(id);
     }
 }

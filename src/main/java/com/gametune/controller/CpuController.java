@@ -37,8 +37,8 @@ public class CpuController {
         jdbc.execute("ALTER SEQUENCE cpu_id_seq RESTART WITH 1");
     }
 
-    @DeleteMapping
-    public void deleteCpuById(@RequestParam Long id) {
+    @DeleteMapping("/{id}")
+    public void deleteCpuById(@PathVariable Long id) {
         cpuRepository.deleteById(id);
     }
 }
