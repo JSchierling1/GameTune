@@ -2,8 +2,10 @@ package com.gametune;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.gametune.model.Game;
 import com.gametune.model.hardware.Cpu;
 import com.gametune.model.hardware.Gpu;
+import com.gametune.model.hardware.HardwareProfile;
 import com.gametune.repository.CpuRepository;
 import com.gametune.repository.GameRepository;
 import com.gametune.repository.GpuRepository;
@@ -73,9 +75,53 @@ public class DataInitializer implements CommandLineRunner {
         }
     }
 
-    private void loadGames() {
-        // Deine Logik für die Spiele kommt hier hin
-        System.out.println("Game loading not implemented yet.");
+    private void loadGames() throws Exception{
+        System.out.println("Checking for new games in games.json...");
+
+        InputStream inputStream = getClass().getResourceAsStream("/games.json");
+        List<GameDto> gameDtos = mapper.readValue(inputStream, new TypeReference<List<GameDto>>() {});
+
+        //Fetch all existing game names
+        List<String> existingGames = gameRepository.findAll()
+                .stream()
+                .map(Game::getName)
+                .collect(Collectors.toList());
+
+        //Filter out games that already exist in the database
+        List<GameDto> newGameDtos = gameDtos.stream()
+                .filter(dto -> !existingGames.contains(dto.name))
+                .collect(Collectors.toList());
+
+        //Special handling for games
+        for (GameDto dto : newGameDtos){
+            Game game = new Game();
+            game.setName(dto.name);
+            game.setPublisher(dto.publisher);
+            game.setSupportsDLSS(dto.supportsDLSS);
+            game.setSupportsFSR(dto.supportsFSR);
+
+            Cpu minCpu = cpuRepository.findByModel(dto.minCpuModel).orElseThrow(() -> new RuntimeException("CPU not found: " + dto.minGpuModel));
+            Gpu minGpu = gpuRepository.findByModel(dto.minGpuModel).orElseThrow(() -> new RuntimeException("GPU not found: " + dto.minGpuModel));
+
+            Cpu recCpu = cpuRepository.findByModel(dto.recCpuModel).orElseThrow(() -> new RuntimeException("CPU not found: " + dto.recGpuModel));
+            Gpu recGpu = gpuRepository.findByModel(dto.recGpuModel).orElseThrow(() -> new RuntimeException("GPU not found: " + dto.recGpuModel));
+
+            //Create minimal hardware profile
+            HardwareProfile minReq = new HardwareProfile();
+            minReq.setCpu(minCpu);
+            minReq.setGpu(minGpu);
+            minReq.setRam(dto.minRam);
+            game.setMinRequirements(minReq);
+
+            //Create recommended hardware profile
+            HardwareProfile recReq = new HardwareProfile();
+            recReq.setCpu(recCpu);
+            recReq.setGpu(recGpu);
+            recReq.setRam(dto.recRam);
+            game.setRecRequirements(recReq);
+
+            gameRepository.save(game);
+        }
     }
 }
 
