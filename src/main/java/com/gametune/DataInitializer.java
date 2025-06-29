@@ -9,6 +9,7 @@ import com.gametune.model.hardware.HardwareProfile;
 import com.gametune.repository.CpuRepository;
 import com.gametune.repository.GameRepository;
 import com.gametune.repository.GpuRepository;
+import com.gametune.repository.HardwareRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.data.jpa.repository.JpaRepository;
@@ -31,10 +32,22 @@ public class DataInitializer implements CommandLineRunner {
     @Autowired
     private GameRepository gameRepository;
 
+    @Autowired
+    private HardwareRepository hardwareRepository;
+
     private final ObjectMapper mapper = new ObjectMapper();
 
     @Override
     public void run(String... args) throws Exception{
+
+        //Clear existing data
+        System.out.println("Clearing existing data...");
+        gameRepository.deleteAll();
+        hardwareRepository.deleteAll();
+        cpuRepository.deleteAll();
+        gpuRepository.deleteAll();
+        System.out.println("Existing data cleared.");
+
         loadData("/cpus.json", new TypeReference<List<Cpu>>() {}, cpuRepository, Cpu::getModel, "CPUs");
         loadData("/gpus.json", new TypeReference<List<Gpu>>() {}, gpuRepository, Gpu::getModel, "GPUs");
         loadGames();
@@ -96,14 +109,14 @@ public class DataInitializer implements CommandLineRunner {
         for (GameDto dto : newGameDtos){
             Game game = new Game();
             game.setName(dto.name);
-            game.setPublisher(dto.publisher);
+            //game.setPublisher(dto.publisher.toUpperCase());
             game.setSupportsDLSS(dto.supportsDLSS);
             game.setSupportsFSR(dto.supportsFSR);
 
-            Cpu minCpu = cpuRepository.findByModel(dto.minCpuModel).orElseThrow(() -> new RuntimeException("CPU not found: " + dto.minGpuModel));
+            Cpu minCpu = cpuRepository.findByModel(dto.minCpuModel).orElseThrow(() -> new RuntimeException("CPU not found: " + dto.minCpuModel));
             Gpu minGpu = gpuRepository.findByModel(dto.minGpuModel).orElseThrow(() -> new RuntimeException("GPU not found: " + dto.minGpuModel));
 
-            Cpu recCpu = cpuRepository.findByModel(dto.recCpuModel).orElseThrow(() -> new RuntimeException("CPU not found: " + dto.recGpuModel));
+            Cpu recCpu = cpuRepository.findByModel(dto.recCpuModel).orElseThrow(() -> new RuntimeException("CPU not found: " + dto.recCpuModel));
             Gpu recGpu = gpuRepository.findByModel(dto.recGpuModel).orElseThrow(() -> new RuntimeException("GPU not found: " + dto.recGpuModel));
 
             //Create minimal hardware profile

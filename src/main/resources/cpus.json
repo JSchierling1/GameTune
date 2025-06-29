@@ -1,1 +1,1502 @@
-[{"id":1,"model":"Ryzen 9 9900X3D","vendor":"AMD","score":12503},{"id":2,"model":"Ryzen 7 9800X3D","vendor":"AMD","score":12153},{"id":3,"model":"Ryzen 9 9950X3D","vendor":"AMD","score":11316},{"id":4,"model":"Ryzen 9 7900X3D","vendor":"AMD","score":10844},{"id":5,"model":"Core Ultra 9 285K","vendor":"INTEL","score":10578},{"id":6,"model":"Ryzen 5 7600X3D","vendor":"AMD","score":10506},{"id":7,"model":"Ryzen 7 7800X3D","vendor":"AMD","score":10281},{"id":8,"model":"Ryzen 9 7950X3D","vendor":"AMD","score":9808},{"id":9,"model":"Core Ultra 5 245K","vendor":"INTEL","score":9668},{"id":10,"model":"Core Ultra 7 265K","vendor":"INTEL","score":9515},{"id":11,"model":"Core Ultra 9 285","vendor":"INTEL","score":9490},{"id":12,"model":"Core Ultra 7 265KF","vendor":"INTEL","score":9417},{"id":13,"model":"Core Ultra 5 245KF","vendor":"INTEL","score":9290},{"id":14,"model":"Core Ultra 5 235","vendor":"INTEL","score":9069},{"id":15,"model":"Ryzen 5 5600X3D","vendor":"AMD","score":8892},{"id":16,"model":"Core i9-14900KS","vendor":"INTEL","score":8707},{"id":17,"model":"Core i9-13900KS","vendor":"INTEL","score":8535},{"id":18,"model":"Ryzen 9 9900X","vendor":"AMD","score":8213},{"id":19,"model":"Core Ultra 7 265F","vendor":"INTEL","score":8095},{"id":20,"model":"Core i9-14900KF","vendor":"INTEL","score":8060},{"id":21,"model":"Ryzen 7 5800X3D","vendor":"AMD","score":8042},{"id":22,"model":"Core i9-14900K","vendor":"INTEL","score":8014},{"id":23,"model":"Core i9-13900K","vendor":"INTEL","score":7945},{"id":24,"model":"Core Ultra 9 285T","vendor":"INTEL","score":7876},{"id":25,"model":"Ryzen 7 5700X3D","vendor":"AMD","score":7820},{"id":26,"model":"Core i9-13900KF","vendor":"INTEL","score":7618},{"id":27,"model":"Core Ultra 5 245T","vendor":"INTEL","score":7607},{"id":28,"model":"Core i7-14700KF","vendor":"INTEL","score":7577},{"id":29,"model":"Core Ultra 5 235T","vendor":"INTEL","score":7478},{"id":30,"model":"Core Ultra 5 225F","vendor":"INTEL","score":7435},{"id":31,"model":"Core i7-14700K","vendor":"INTEL","score":7433},{"id":32,"model":"Core i9-14900F","vendor":"INTEL","score":7413},{"id":33,"model":"Core Ultra 5 225","vendor":"INTEL","score":7404},{"id":34,"model":"Ryzen 9 7900X","vendor":"AMD","score":7402},{"id":35,"model":"Ryzen Threadripper PRO 7945WX","vendor":"AMD","score":7356},{"id":36,"model":"Ryzen 9 7900","vendor":"AMD","score":7315},{"id":37,"model":"Ryzen 9 9955HX3D","vendor":"AMD","score":7258},{"id":38,"model":"Core i9-13900F","vendor":"INTEL","score":7239},{"id":39,"model":"Core Ultra 7 265T","vendor":"INTEL","score":7150},{"id":40,"model":"Ryzen AI Max 390","vendor":"AMD","score":7108},{"id":41,"model":"Core i5-14600K","vendor":"INTEL","score":7075},{"id":42,"model":"Ryzen 5 9600","vendor":"AMD","score":7022},{"id":43,"model":"Core i5-14600KF","vendor":"INTEL","score":7004},{"id":44,"model":"Ryzen 5 9600X","vendor":"AMD","score":6980},{"id":45,"model":"Ryzen Threadripper PRO 7955WX","vendor":"AMD","score":6928},{"id":46,"model":"Core i9-14900T","vendor":"INTEL","score":6897},{"id":47,"model":"Ryzen 9 9950X","vendor":"AMD","score":6831},{"id":48,"model":"Core i7-13700KF","vendor":"INTEL","score":6806},{"id":49,"model":"Core i7-13700K","vendor":"INTEL","score":6726},{"id":50,"model":"Core i9-13900","vendor":"INTEL","score":6673},{"id":51,"model":"Core i9-14900","vendor":"INTEL","score":6633},{"id":52,"model":"Core i5-13600K","vendor":"INTEL","score":6540},{"id":53,"model":"Core i9-13900T","vendor":"INTEL","score":6525},{"id":54,"model":"Core i5-13600KF","vendor":"INTEL","score":6486},{"id":55,"model":"Core i7-14700F","vendor":"INTEL","score":6469},{"id":56,"model":"Ryzen 9 7950X","vendor":"AMD","score":6390},{"id":57,"model":"Ryzen 5 7600X","vendor":"AMD","score":6342},{"id":58,"model":"Ryzen 7 9700X","vendor":"AMD","score":6267},{"id":59,"model":"Ryzen 7 7840HX","vendor":"AMD","score":6207},{"id":60,"model":"Core i7-14700","vendor":"INTEL","score":6175},{"id":61,"model":"Ryzen 5 7600","vendor":"AMD","score":6106},{"id":62,"model":"Ryzen 5 7500F","vendor":"AMD","score":6096},{"id":63,"model":"Ryzen 9 9955HX","vendor":"AMD","score":6010},{"id":64,"model":"Ryzen 5 7400F","vendor":"AMD","score":5937},{"id":65,"model":"Core i9-12900KS","vendor":"INTEL","score":5904},{"id":66,"model":"Core i5-14600T","vendor":"INTEL","score":5838},{"id":67,"model":"Core i7-13700F","vendor":"INTEL","score":5804},{"id":68,"model":"Ryzen 7 7700X","vendor":"AMD","score":5732},{"id":69,"model":"Core i5-13490F","vendor":"INTEL","score":5702},{"id":70,"model":"Ryzen 7 7700","vendor":"AMD","score":5605},{"id":71,"model":"Core i5-14500","vendor":"INTEL","score":5528},{"id":72,"model":"Core i7-13700","vendor":"INTEL","score":5525},{"id":73,"model":"Core i5-13600","vendor":"INTEL","score":5481},{"id":74,"model":"Core i9-12900K","vendor":"INTEL","score":5482},{"id":75,"model":"Ryzen 9 7940HX","vendor":"AMD","score":5331},{"id":76,"model":"Core i9-13900KF","vendor":"INTEL","score":5311},{"id":77,"model":"Core i7-14700T","vendor":"INTEL","score":5269},{"id":78,"model":"Core i5-13500","vendor":"INTEL","score":5243},{"id":79,"model":"Ryzen AI 9 HX PRO 375","vendor":"AMD","score":5143},{"id":80,"model":"Ryzen 9 5900X","vendor":"AMD","score":5027},{"id":81,"model":"Ryzen 9 8940HX","vendor":"AMD","score":4999},{"id":82,"model":"Core i7-13700T","vendor":"INTEL","score":4938},{"id":83,"model":"Ryzen 9 PRO 5945","vendor":"AMD","score":4838},{"id":84,"model":"Ryzen 5 5600XT","vendor":"AMD","score":4838},{"id":85,"model":"Ryzen 5 5600T","vendor":"AMD","score":4783},{"id":86,"model":"Core i5-14400F","vendor":"INTEL","score":4708},{"id":87,"model":"Core i9-12900T","vendor":"INTEL","score":4652},{"id":88,"model":"Core i9-12900","vendor":"INTEL","score":4578},{"id":89,"model":"Ryzen 9 5900","vendor":"AMD","score":4520},{"id":90,"model":"Core i5-14400","vendor":"INTEL","score":4521},{"id":91,"model":"Core i7-12700K","vendor":"INTEL","score":4491},{"id":92,"model":"Ryzen 5 5800X","vendor":"AMD","score":4486},{"id":93,"model":"Core i7-12700KF","vendor":"INTEL","score":4436},{"id":94,"model":"Core i5-14500T","vendor":"INTEL","score":4434},{"id":95,"model":"Core i5-12800K","vendor":"INTEL","score":4431},{"id":96,"model":"Core i5-13400F","vendor":"INTEL","score":4333},{"id":97,"model":"Ryzen 5 5600","vendor":"AMD","score":4349},{"id":98,"model":"Core i5-13600T","vendor":"INTEL","score":4346},{"id":99,"model":"Ryzen 7 780","vendor":"AMD","score":4307},{"id":100,"model":"Ryzen 5 8600G","vendor":"AMD","score":4283},{"id":101,"model":"Ryzen 9 5900XT","vendor":"AMD","score":4280},{"id":102,"model":"Ryzen 9 5950X","vendor":"AMD","score":4278},{"id":103,"model":"Core i5-12400F","vendor":"INTEL","score":4240},{"id":104,"model":"Ryzen 9 3900XT","vendor":"AMD","score":4236},{"id":105,"model":"Ryzen 7 5800XT","vendor":"AMD","score":4206},{"id":106,"model":"Core i7-12700","vendor":"INTEL","score":4095},{"id":107,"model":"Ryzen 5 8400F","vendor":"AMD","score":4091},{"id":108,"model":"Ryzen 5 PRO 8800G","vendor":"AMD","score":4090},{"id":109,"model":"Ryzen 5 8500G","vendor":"AMD","score":4051},{"id":110,"model":"Ryzen 9 3900X","vendor":"AMD","score":4044},{"id":111,"model":"Ryzen 5 PRO 8500GE","vendor":"AMD","score":4024},{"id":112,"model":"Ryzen 5 PRO 8500G","vendor":"AMD","score":4012},{"id":113,"model":"Core i5-12800","vendor":"INTEL","score":4001},{"id":114,"model":"Core i5-13400","vendor":"INTEL","score":3964},{"id":115,"model":"Core i7-12700F","vendor":"INTEL","score":3962},{"id":116,"model":"Ryzen 7 8700G","vendor":"AMD","score":3938},{"id":117,"model":"Core i5-13500T","vendor":"INTEL","score":3917},{"id":118,"model":"Ryzen 7 5700X","vendor":"AMD","score":3915},{"id":119,"model":"Ryzen 9 3900","vendor":"AMD","score":3774},{"id":120,"model":"Ryzen 7 5800X","vendor":"AMD","score":3939},{"id":121,"model":"Ryzen 5 3600XT","vendor":"AMD","score":3935},{"id":122,"model":"Ryzen 7 8700F","vendor":"AMD","score":3917},{"id":123,"model":"Core i5-13500T","vendor":"INTEL","score":3917},{"id":124,"model":"Ryzen 7 5700X","vendor":"AMD","score":3915},{"id":125,"model":"Ryzen 9 3900","vendor":"AMD","score":3774},{"id":126,"model":"Ryzen 7 PRO 8700G","vendor":"AMD","score":3723},{"id":127,"model":"Ryzen 7 PRO 8845","vendor":"AMD","score":3720},{"id":128,"model":"Ryzen 5 3500X","vendor":"AMD","score":3692},{"id":129,"model":"Ryzen 5 8600GE","vendor":"AMD","score":3676},{"id":130,"model":"Ryzen 7 8745HS","vendor":"AMD","score":3658},{"id":131,"model":"Ryzen 7 PRO 8700GE","vendor":"AMD","score":3639},{"id":132,"model":"Ryzen 9 8945HS","vendor":"AMD","score":3626},{"id":133,"model":"Ryzen 5 3600X","vendor":"AMD","score":3623},{"id":134,"model":"Ryzen 5 PRO 7545U","vendor":"AMD","score":3623},{"id":135,"model":"Core i5-12500","vendor":"INTEL","score":3570},{"id":136,"model":"Core i5-12400F","vendor":"INTEL","score":3555},{"id":137,"model":"Core i5-12600T","vendor":"INTEL","score":3541},{"id":138,"model":"Ryzen 7 5800","vendor":"AMD","score":3552},{"id":139,"model":"Ryzen 5 8545HS","vendor":"AMD","score":3540},{"id":140,"model":"Ryzen AI 7 PRO 360","vendor":"AMD","score":3549},{"id":141,"model":"Ryzen 5 3800","vendor":"AMD","score":3522},{"id":142,"model":"Ryzen 9 8945H","vendor":"AMD","score":3486},{"id":143,"model":"Ryzen 7 PRO 8840HS","vendor":"AMD","score":3486},{"id":144,"model":"Ryzen 7 8545HS","vendor":"AMD","score":3456},{"id":145,"model":"Core i5-12400","vendor":"INTEL","score":3432},{"id":146,"model":"Ryzen 5 8540U","vendor":"AMD","score":3432},{"id":147,"model":"Ryzen 5 220","vendor":"AMD","score":3407},{"id":148,"model":"Core i7-12700T","vendor":"INTEL","score":3397},{"id":149,"model":"Ryzen AI 5 340","vendor":"AMD","score":3375}]
+[
+  {
+    "model": "Ryzen 9 9900X3D",
+    "vendor": "AMD",
+    "score": 12457
+  },
+  {
+    "model": "Ryzen 7 9800X3D",
+    "vendor": "AMD",
+    "score": 12148
+  },
+  {
+    "model": "Ryzen 9 9950X3D",
+    "vendor": "AMD",
+    "score": 11292
+  },
+  {
+    "model": "Ryzen 9 7900X3D",
+    "vendor": "AMD",
+    "score": 10839
+  },
+  {
+    "model": "Core Ultra 9 285K",
+    "vendor": "INTEL",
+    "score": 10587
+  },
+  {
+    "model": "Ryzen 5 7600X3D",
+    "vendor": "AMD",
+    "score": 10482
+  },
+  {
+    "model": "Ryzen 7 7800X3D",
+    "vendor": "AMD",
+    "score": 10274
+  },
+  {
+    "model": "Ryzen 9 9955HX3D",
+    "vendor": "AMD",
+    "score": 9834
+  },
+  {
+    "model": "Ryzen 9 7950X3D",
+    "vendor": "AMD",
+    "score": 9804
+  },
+  {
+    "model": "Core Ultra 5 245K",
+    "vendor": "INTEL",
+    "score": 9643
+  },
+  {
+    "model": "Core Ultra 7 265K",
+    "vendor": "INTEL",
+    "score": 9531
+  },
+  {
+    "model": "Core Ultra 7 265KF",
+    "vendor": "INTEL",
+    "score": 9429
+  },
+  {
+    "model": "Core Ultra 9 285",
+    "vendor": "INTEL",
+    "score": 9413
+  },
+  {
+    "model": "Core Ultra 5 245KF",
+    "vendor": "INTEL",
+    "score": 9234
+  },
+  {
+    "model": "Core Ultra 9 275HX",
+    "vendor": "INTEL",
+    "score": 8946
+  },
+  {
+    "model": "Core Ultra 5 235",
+    "vendor": "INTEL",
+    "score": 8914
+  },
+  {
+    "model": "Ryzen 5 5600X3D",
+    "vendor": "AMD",
+    "score": 8904
+  },
+  {
+    "model": "Core i9-14900KS",
+    "vendor": "INTEL",
+    "score": 8671
+  },
+  {
+    "model": "Core i9-13900KS",
+    "vendor": "INTEL",
+    "score": 8523
+  },
+  {
+    "model": "Ryzen 9 9900X",
+    "vendor": "AMD",
+    "score": 8208
+  },
+  {
+    "model": "Core Ultra 7 265F",
+    "vendor": "INTEL",
+    "score": 8123
+  },
+  {
+    "model": "Core Ultra 7 265",
+    "vendor": "INTEL",
+    "score": 8089
+  },
+  {
+    "model": "Core Ultra 7 255HX",
+    "vendor": "INTEL",
+    "score": 8089
+  },
+  {
+    "model": "Core i9-14900KF",
+    "vendor": "INTEL",
+    "score": 8049
+  },
+  {
+    "model": "Ryzen 7 5800X3D",
+    "vendor": "AMD",
+    "score": 8043
+  },
+  {
+    "model": "Core i9-14900K",
+    "vendor": "INTEL",
+    "score": 8003
+  },
+  {
+    "model": "Core i9-13900K",
+    "vendor": "INTEL",
+    "score": 7944
+  },
+  {
+    "model": "Core Ultra 9 285T",
+    "vendor": "INTEL",
+    "score": 7871
+  },
+  {
+    "model": "Ryzen 7 5700X3D",
+    "vendor": "AMD",
+    "score": 7819
+  },
+  {
+    "model": "Core Ultra 7 265H",
+    "vendor": "INTEL",
+    "score": 7774
+  },
+  {
+    "model": "Core Ultra 5 245T",
+    "vendor": "INTEL",
+    "score": 7648
+  },
+  {
+    "model": "Core i9-13900KF",
+    "vendor": "INTEL",
+    "score": 7613
+  },
+  {
+    "model": "Core i7-14700KF",
+    "vendor": "INTEL",
+    "score": 7552
+  },
+  {
+    "model": "Core i9-14900F",
+    "vendor": "INTEL",
+    "score": 7468
+  },
+  {
+    "model": "Ryzen Threadripper PRO 7945WX",
+    "vendor": "AMD",
+    "score": 7465
+  },
+  {
+    "model": "Core Ultra 5 225F",
+    "vendor": "INTEL",
+    "score": 7452
+  },
+  {
+    "model": "Core i7-14700K",
+    "vendor": "INTEL",
+    "score": 7415
+  },
+  {
+    "model": "Ryzen 9 7900X",
+    "vendor": "AMD",
+    "score": 7400
+  },
+  {
+    "model": "Core Ultra 5 225",
+    "vendor": "INTEL",
+    "score": 7383
+  },
+  {
+    "model": "Ryzen 9 7900",
+    "vendor": "AMD",
+    "score": 7317
+  },
+  {
+    "model": "Core i9-13900F",
+    "vendor": "INTEL",
+    "score": 7200
+  },
+  {
+    "model": "Core Ultra 7 265T",
+    "vendor": "INTEL",
+    "score": 7138
+  },
+  {
+    "model": "Core i5-14600K",
+    "vendor": "INTEL",
+    "score": 7123
+  },
+  {
+    "model": "Core Ultra 5 235T",
+    "vendor": "INTEL",
+    "score": 7105
+  },
+  {
+    "model": "Core i9-14900HX",
+    "vendor": "INTEL",
+    "score": 7051
+  },
+  {
+    "model": "Core i7-13790F",
+    "vendor": "INTEL",
+    "score": 7044
+  },
+  {
+    "model": "Ryzen AI Max 390",
+    "vendor": "AMD",
+    "score": 7027
+  },
+  {
+    "model": "Ryzen 5 9600X",
+    "vendor": "AMD",
+    "score": 6997
+  },
+  {
+    "model": "Core i5-14600KF",
+    "vendor": "INTEL",
+    "score": 6987
+  },
+  {
+    "model": "Ryzen Threadripper PRO 7955WX",
+    "vendor": "AMD",
+    "score": 6971
+  },
+  {
+    "model": "Ryzen 9 9950X",
+    "vendor": "AMD",
+    "score": 6848
+  },
+  {
+    "model": "Ryzen AI Max Pro 390",
+    "vendor": "AMD",
+    "score": 6823
+  },
+  {
+    "model": "Ryzen 5 9600",
+    "vendor": "AMD",
+    "score": 6811
+  },
+  {
+    "model": "Core i7-13700KF",
+    "vendor": "INTEL",
+    "score": 6789
+  },
+  {
+    "model": "Core i9-13900HX",
+    "vendor": "INTEL",
+    "score": 6782
+  },
+  {
+    "model": "Core i9-13980HX",
+    "vendor": "INTEL",
+    "score": 6764
+  },
+  {
+    "model": "Core i9-13950HX",
+    "vendor": "INTEL",
+    "score": 6752
+  },
+  {
+    "model": "Core i9-14900T",
+    "vendor": "INTEL",
+    "score": 6739
+  },
+  {
+    "model": "Core i7-13700K",
+    "vendor": "INTEL",
+    "score": 6716
+  },
+  {
+    "model": "Core i9-13900",
+    "vendor": "INTEL",
+    "score": 6656
+  },
+  {
+    "model": "Core i9-14900",
+    "vendor": "INTEL",
+    "score": 6641
+  },
+  {
+    "model": "Ryzen 9 7945HX3D",
+    "vendor": "AMD",
+    "score": 6600
+  },
+  {
+    "model": "Core i5-13600K",
+    "vendor": "INTEL",
+    "score": 6548
+  },
+  {
+    "model": "Core i9-13900T",
+    "vendor": "INTEL",
+    "score": 6548
+  },
+  {
+    "model": "Core i5-13600KF",
+    "vendor": "INTEL",
+    "score": 6483
+  },
+  {
+    "model": "Core i7-14700F",
+    "vendor": "INTEL",
+    "score": 6464
+  },
+  {
+    "model": "Ryzen 9 7950X",
+    "vendor": "AMD",
+    "score": 6386
+  },
+  {
+    "model": "Ryzen AI Max+ 395",
+    "vendor": "AMD",
+    "score": 6369
+  },
+  {
+    "model": "Ryzen 5 7600X",
+    "vendor": "AMD",
+    "score": 6333
+  },
+  {
+    "model": "Ryzen 7 9700X",
+    "vendor": "AMD",
+    "score": 6270
+  },
+  {
+    "model": "Ryzen AI Max+ Pro 395",
+    "vendor": "AMD",
+    "score": 6232
+  },
+  {
+    "model": "Ryzen 7 7840HX",
+    "vendor": "AMD",
+    "score": 6199
+  },
+  {
+    "model": "Ryzen 9 7845HX",
+    "vendor": "AMD",
+    "score": 6182
+  },
+  {
+    "model": "Core i7-14700",
+    "vendor": "INTEL",
+    "score": 6173
+  },
+  {
+    "model": "Core i7-14700HX",
+    "vendor": "INTEL",
+    "score": 6170
+  },
+  {
+    "model": "Ryzen 5 7600",
+    "vendor": "AMD",
+    "score": 6104
+  },
+  {
+    "model": "Ryzen 5 7500F",
+    "vendor": "AMD",
+    "score": 6096
+  },
+  {
+    "model": "Core i7-13850HX",
+    "vendor": "INTEL",
+    "score": 6084
+  },
+  {
+    "model": "Ryzen 9 9955HX",
+    "vendor": "AMD",
+    "score": 6064
+  },
+  {
+    "model": "Core i9-13905H",
+    "vendor": "INTEL",
+    "score": 5894
+  },
+  {
+    "model": "Core i9-12900KS",
+    "vendor": "INTEL",
+    "score": 5893
+  },
+  {
+    "model": "Ryzen 5 7400F",
+    "vendor": "AMD",
+    "score": 5846
+  },
+  {
+    "model": "Core 9 270H",
+    "vendor": "INTEL",
+    "score": 5841
+  },
+  {
+    "model": "Core i5-14600T",
+    "vendor": "INTEL",
+    "score": 5838
+  },
+  {
+    "model": "Core i7-14650HX",
+    "vendor": "INTEL",
+    "score": 5825
+  },
+  {
+    "model": "Core i7-13700F",
+    "vendor": "INTEL",
+    "score": 5800
+  },
+  {
+    "model": "Core i5-14500HX",
+    "vendor": "INTEL",
+    "score": 5788
+  },
+  {
+    "model": "Ryzen 7 7700X",
+    "vendor": "AMD",
+    "score": 5727
+  },
+  {
+    "model": "Core i9-13900HK",
+    "vendor": "INTEL",
+    "score": 5725
+  },
+  {
+    "model": "Core Ultra 9 185H",
+    "vendor": "INTEL",
+    "score": 5715
+  },
+  {
+    "model": "Core i5-13490F",
+    "vendor": "INTEL",
+    "score": 5704
+  },
+  {
+    "model": "Ryzen 7 7700",
+    "vendor": "AMD",
+    "score": 5596
+  },
+  {
+    "model": "Core i7-13800H",
+    "vendor": "INTEL",
+    "score": 5564
+  },
+  {
+    "model": "Core i5-14500",
+    "vendor": "INTEL",
+    "score": 5543
+  },
+  {
+    "model": "Ryzen 9 7945HX",
+    "vendor": "AMD",
+    "score": 5529
+  },
+  {
+    "model": "Core i5-13600",
+    "vendor": "INTEL",
+    "score": 5510
+  },
+  {
+    "model": "Core i7-13700",
+    "vendor": "INTEL",
+    "score": 5500
+  },
+  {
+    "model": "Core i9-12900K",
+    "vendor": "INTEL",
+    "score": 5481
+  },
+  {
+    "model": "Core i5-13600HX",
+    "vendor": "INTEL",
+    "score": 5433
+  },
+  {
+    "model": "Core i7-13705H",
+    "vendor": "INTEL",
+    "score": 5368
+  },
+  {
+    "model": "Core Ultra 7 165H",
+    "vendor": "INTEL",
+    "score": 5335
+  },
+  {
+    "model": "Core i7-14700T",
+    "vendor": "INTEL",
+    "score": 5325
+  },
+  {
+    "model": "Core i7-13650HX",
+    "vendor": "INTEL",
+    "score": 5306
+  },
+  {
+    "model": "Ryzen 9 7940HX",
+    "vendor": "AMD",
+    "score": 5300
+  },
+  {
+    "model": "Core i9-13900H",
+    "vendor": "INTEL",
+    "score": 5295
+  },
+  {
+    "model": "Core i9-12900KF",
+    "vendor": "INTEL",
+    "score": 5284
+  },
+  {
+    "model": "Core i7-13700H",
+    "vendor": "INTEL",
+    "score": 5171
+  },
+  {
+    "model": "Core i5-13500",
+    "vendor": "INTEL",
+    "score": 5168
+  },
+  {
+    "model": "Core Ultra 7 155H",
+    "vendor": "INTEL",
+    "score": 5152
+  },
+  {
+    "model": "Core i5-13500HX",
+    "vendor": "INTEL",
+    "score": 5081
+  },
+  {
+    "model": "Core i7-13700HX",
+    "vendor": "INTEL",
+    "score": 5078
+  },
+  {
+    "model": "Core i9-12950HX",
+    "vendor": "INTEL",
+    "score": 5064
+  },
+  {
+    "model": "Ryzen 9 5900X",
+    "vendor": "AMD",
+    "score": 5026
+  },
+  {
+    "model": "Ryzen 9 8940HX",
+    "vendor": "AMD",
+    "score": 5025
+  },
+  {
+    "model": "Core i9-12900H",
+    "vendor": "INTEL",
+    "score": 5024
+  },
+  {
+    "model": "Core i7-13620H",
+    "vendor": "INTEL",
+    "score": 5015
+  },
+  {
+    "model": "Ryzen 7 7745HX",
+    "vendor": "AMD",
+    "score": 4984
+  },
+  {
+    "model": "Core i9-12900HX",
+    "vendor": "INTEL",
+    "score": 4933
+  },
+  {
+    "model": "Core i7-13700T",
+    "vendor": "INTEL",
+    "score": 4911
+  },
+  {
+    "model": "Ryzen 9 PRO 5945",
+    "vendor": "AMD",
+    "score": 4904
+  },
+  {
+    "model": "Core i9-12900F",
+    "vendor": "INTEL",
+    "score": 4829
+  },
+  {
+    "model": "Core i9-12900HK",
+    "vendor": "INTEL",
+    "score": 4806
+  },
+  {
+    "model": "Ryzen 5 5600XT",
+    "vendor": "AMD",
+    "score": 4795
+  },
+  {
+    "model": "Core i7-12800H",
+    "vendor": "INTEL",
+    "score": 4756
+  },
+  {
+    "model": "Ryzen 5 5600T",
+    "vendor": "AMD",
+    "score": 4728
+  },
+  {
+    "model": "Core i5-14400F",
+    "vendor": "INTEL",
+    "score": 4726
+  },
+  {
+    "model": "Core i7-1370P",
+    "vendor": "INTEL",
+    "score": 4655
+  },
+  {
+    "model": "Core i9-12900T",
+    "vendor": "INTEL",
+    "score": 4645
+  },
+  {
+    "model": "Core i9-12900",
+    "vendor": "INTEL",
+    "score": 4639
+  },
+  {
+    "model": "Core Ultra 5 225H",
+    "vendor": "INTEL",
+    "score": 4636
+  },
+  {
+    "model": "Core i7-12850HX",
+    "vendor": "INTEL",
+    "score": 4620
+  },
+  {
+    "model": "Core i5-12600KF",
+    "vendor": "INTEL",
+    "score": 4580
+  },
+  {
+    "model": "Ryzen 9 5900",
+    "vendor": "AMD",
+    "score": 4528
+  },
+  {
+    "model": "Core i5-14400",
+    "vendor": "INTEL",
+    "score": 4525
+  },
+  {
+    "model": "Core Ultra 5 235H",
+    "vendor": "INTEL",
+    "score": 4498
+  },
+  {
+    "model": "Core i7-12700K",
+    "vendor": "INTEL",
+    "score": 4488
+  },
+  {
+    "model": "Core i7-12700H",
+    "vendor": "INTEL",
+    "score": 4480
+  },
+  {
+    "model": "Ryzen 5 5600X",
+    "vendor": "AMD",
+    "score": 4479
+  },
+  {
+    "model": "Core i5-13450HX",
+    "vendor": "INTEL",
+    "score": 4474
+  },
+  {
+    "model": "Ryzen AI 9 HX 370",
+    "vendor": "AMD",
+    "score": 4471
+  },
+  {
+    "model": "Core i7-12700KF",
+    "vendor": "INTEL",
+    "score": 4461
+  },
+  {
+    "model": "Core i5-12600K",
+    "vendor": "INTEL",
+    "score": 4429
+  },
+  {
+    "model": "Core i5-14500T",
+    "vendor": "INTEL",
+    "score": 4414
+  },
+  {
+    "model": "Ryzen AI 9 HX PRO 375",
+    "vendor": "AMD",
+    "score": 4414
+  },
+  {
+    "model": "Core i5-13400F",
+    "vendor": "INTEL",
+    "score": 4383
+  },
+  {
+    "model": "Ryzen 5 5600",
+    "vendor": "AMD",
+    "score": 4379
+  },
+  {
+    "model": "Core i5-13600T",
+    "vendor": "INTEL",
+    "score": 4346
+  },
+  {
+    "model": "Core Ultra 7 265U",
+    "vendor": "INTEL",
+    "score": 4341
+  },
+  {
+    "model": "Core i7-12650H",
+    "vendor": "INTEL",
+    "score": 4330
+  },
+  {
+    "model": "Ryzen AI 9 HX 375",
+    "vendor": "AMD",
+    "score": 4305
+  },
+  {
+    "model": "Ryzen AI 9 HX PRO 370",
+    "vendor": "AMD",
+    "score": 4298
+  },
+  {
+    "model": "Core i7-12800HX",
+    "vendor": "INTEL",
+    "score": 4287
+  },
+  {
+    "model": "Ryzen 9 5900XT",
+    "vendor": "AMD",
+    "score": 4284
+  },
+  {
+    "model": "Ryzen 5 8600G",
+    "vendor": "AMD",
+    "score": 4279
+  },
+  {
+    "model": "Ryzen 9 5950X",
+    "vendor": "AMD",
+    "score": 4275
+  },
+  {
+    "model": "Ryzen 9 3900XT",
+    "vendor": "AMD",
+    "score": 4232
+  },
+  {
+    "model": "Core Ultra 5 225U",
+    "vendor": "INTEL",
+    "score": 4210
+  },
+  {
+    "model": "Core i7-1280P",
+    "vendor": "INTEL",
+    "score": 4198
+  },
+  {
+    "model": "Ryzen 7 5800XT",
+    "vendor": "AMD",
+    "score": 4175
+  },
+  {
+    "model": "Ryzen 5 8400F",
+    "vendor": "AMD",
+    "score": 4090
+  },
+  {
+    "model": "Core i7-12700",
+    "vendor": "INTEL",
+    "score": 4087
+  },
+  {
+    "model": "Ryzen 9 3900X",
+    "vendor": "AMD",
+    "score": 4042
+  },
+  {
+    "model": "Ryzen 5 8500G",
+    "vendor": "AMD",
+    "score": 4039
+  },
+  {
+    "model": "Ryzen 5 PRO 8600G",
+    "vendor": "AMD",
+    "score": 4024
+  },
+  {
+    "model": "Ryzen 5 PRO 8500GE",
+    "vendor": "AMD",
+    "score": 4023
+  },
+  {
+    "model": "Ryzen 5 PRO 8500G",
+    "vendor": "AMD",
+    "score": 4012
+  },
+  {
+    "model": "Core i5-12490F",
+    "vendor": "INTEL",
+    "score": 4011
+  },
+  {
+    "model": "Core i7-13700TE",
+    "vendor": "INTEL",
+    "score": 4005
+  },
+  {
+    "model": "Core Ultra 7 165U",
+    "vendor": "INTEL",
+    "score": 4004
+  },
+  {
+    "model": "Core i5-12600",
+    "vendor": "INTEL",
+    "score": 3974
+  },
+  {
+    "model": "Core i5-13400",
+    "vendor": "INTEL",
+    "score": 3968
+  },
+  {
+    "model": "Core i7-12700F",
+    "vendor": "INTEL",
+    "score": 3966
+  },
+  {
+    "model": "Core Ultra 5 135U",
+    "vendor": "INTEL",
+    "score": 3964
+  },
+  {
+    "model": "Ryzen 7 8700G",
+    "vendor": "AMD",
+    "score": 3956
+  },
+  {
+    "model": "Ryzen 5 PRO 8600GE",
+    "vendor": "AMD",
+    "score": 3949
+  },
+  {
+    "model": "Core i5-13500T",
+    "vendor": "INTEL",
+    "score": 3945
+  },
+  {
+    "model": "Ryzen 7 5800X",
+    "vendor": "AMD",
+    "score": 3936
+  },
+  {
+    "model": "Ryzen 5 3600XT",
+    "vendor": "AMD",
+    "score": 3929
+  },
+  {
+    "model": "Ryzen 9 PRO 3900",
+    "vendor": "AMD",
+    "score": 3929
+  },
+  {
+    "model": "Ryzen 7 260",
+    "vendor": "AMD",
+    "score": 3907
+  },
+  {
+    "model": "Ryzen 7 8700F",
+    "vendor": "AMD",
+    "score": 3905
+  },
+  {
+    "model": "Core Ultra 7 155U",
+    "vendor": "INTEL",
+    "score": 3858
+  },
+  {
+    "model": "Ryzen 7 5700X",
+    "vendor": "AMD",
+    "score": 3856
+  },
+  {
+    "model": "Core Ultra 5 125U",
+    "vendor": "INTEL",
+    "score": 3823
+  },
+  {
+    "model": "Ryzen 9 3900",
+    "vendor": "AMD",
+    "score": 3773
+  },
+  {
+    "model": "Core 7 150U",
+    "vendor": "INTEL",
+    "score": 3761
+  },
+  {
+    "model": "Core Ultra 5 235U",
+    "vendor": "INTEL",
+    "score": 3756
+  },
+  {
+    "model": "Ryzen 7 PRO 5845",
+    "vendor": "AMD",
+    "score": 3727
+  },
+  {
+    "model": "Ryzen 7 PRO 8700G",
+    "vendor": "AMD",
+    "score": 3723
+  },
+  {
+    "model": "Ryzen 5 PRO 7640HS",
+    "vendor": "AMD",
+    "score": 3710
+  },
+  {
+    "model": "Core i5-12500",
+    "vendor": "INTEL",
+    "score": 3700
+  },
+  {
+    "model": "Ryzen 5 3500X",
+    "vendor": "AMD",
+    "score": 3693
+  },
+  {
+    "model": "Core i7-1260U",
+    "vendor": "INTEL",
+    "score": 3686
+  },
+  {
+    "model": "Ryzen 7 8745HS",
+    "vendor": "AMD",
+    "score": 3659
+  },
+  {
+    "model": "Ryzen 9 7940HS",
+    "vendor": "AMD",
+    "score": 3653
+  },
+  {
+    "model": "Ryzen 5 8500GE",
+    "vendor": "AMD",
+    "score": 3650
+  },
+  {
+    "model": "Core 3 100U",
+    "vendor": "INTEL",
+    "score": 3650
+  },
+  {
+    "model": "Ryzen 5 PRO 7545U",
+    "vendor": "AMD",
+    "score": 3640
+  },
+  {
+    "model": "Ryzen 5 7640HS",
+    "vendor": "AMD",
+    "score": 3639
+  },
+  {
+    "model": "Ryzen 5 3600X",
+    "vendor": "AMD",
+    "score": 3625
+  },
+  {
+    "model": "Ryzen 7 255",
+    "vendor": "AMD",
+    "score": 3625
+  },
+  {
+    "model": "Ryzen 9 8945HS",
+    "vendor": "AMD",
+    "score": 3623
+  },
+  {
+    "model": "Ryzen 7 PRO 8700GE",
+    "vendor": "AMD",
+    "score": 3619
+  },
+  {
+    "model": "Ryzen 5 7640U",
+    "vendor": "AMD",
+    "score": 3605
+  },
+  {
+    "model": "Ryzen 7 8745H",
+    "vendor": "AMD",
+    "score": 3596
+  },
+  {
+    "model": "Core i5-12400F",
+    "vendor": "INTEL",
+    "score": 3582
+  },
+  {
+    "model": "Core Ultra 9 288V",
+    "vendor": "INTEL",
+    "score": 3560
+  },
+  {
+    "model": "Ryzen AI 7 PRO 360",
+    "vendor": "AMD",
+    "score": 3553
+  },
+  {
+    "model": "Ryzen 7 5800",
+    "vendor": "AMD",
+    "score": 3553
+  },
+  {
+    "model": "Ryzen 5 8645HS",
+    "vendor": "AMD",
+    "score": 3549
+  },
+  {
+    "model": "Core i5-12600T",
+    "vendor": "INTEL",
+    "score": 3544
+  },
+  {
+    "model": "Ryzen 9 PRO 7940HS",
+    "vendor": "AMD",
+    "score": 3542
+  },
+  {
+    "model": "Core i7-1365U",
+    "vendor": "INTEL",
+    "score": 3536
+  },
+  {
+    "model": "Core Ultra 7 266V",
+    "vendor": "INTEL",
+    "score": 3535
+  },
+  {
+    "model": "Ryzen 5 3600",
+    "vendor": "AMD",
+    "score": 3521
+  },
+  {
+    "model": "Ryzen 9 8945H",
+    "vendor": "AMD",
+    "score": 3510
+  },
+  {
+    "model": "Ryzen 7 7840HS",
+    "vendor": "AMD",
+    "score": 3508
+  },
+  {
+    "model": "Core i5-1240U",
+    "vendor": "INTEL",
+    "score": 3503
+  },
+  {
+    "model": "Ryzen 7 PRO 8840HS",
+    "vendor": "AMD",
+    "score": 3490
+  },
+  {
+    "model": "Core i5-13600H",
+    "vendor": "INTEL",
+    "score": 3482
+  },
+  {
+    "model": "Ryzen 7 8845HS",
+    "vendor": "AMD",
+    "score": 3453
+  },
+  {
+    "model": "Core Ultra 7 256V",
+    "vendor": "INTEL",
+    "score": 3436
+  },
+  {
+    "model": "Ryzen 5 PRO 215",
+    "vendor": "AMD",
+    "score": 3425
+  },
+  {
+    "model": "Ryzen 5 8540U",
+    "vendor": "AMD",
+    "score": 3421
+  },
+  {
+    "model": "Core i3-1305U",
+    "vendor": "INTEL",
+    "score": 3412
+  },
+  {
+    "model": "Ryzen 9 7940H",
+    "vendor": "AMD",
+    "score": 3409
+  },
+  {
+    "model": "Ryzen 7 PRO 7840HS",
+    "vendor": "AMD",
+    "score": 3384
+  },
+  {
+    "model": "Core Ultra 5 135H",
+    "vendor": "INTEL",
+    "score": 3358
+  },
+  {
+    "model": "Ryzen 7 7840H",
+    "vendor": "AMD",
+    "score": 3353
+  },
+  {
+    "model": "Core Ultra 7 258V",
+    "vendor": "INTEL",
+    "score": 3350
+  },
+  {
+    "model": "Core 5 220H",
+    "vendor": "INTEL",
+    "score": 3330
+  },
+  {
+    "model": "Core i7-1355U",
+    "vendor": "INTEL",
+    "score": 3298
+  },
+  {
+    "model": "Ryzen 5 7540U",
+    "vendor": "AMD",
+    "score": 3274
+  },
+  {
+    "model": "Core Ultra 5 134U",
+    "vendor": "INTEL",
+    "score": 3271
+  },
+  {
+    "model": "Ryzen 7 7840U",
+    "vendor": "AMD",
+    "score": 3258
+  },
+  {
+    "model": "Core Ultra 5 125H",
+    "vendor": "INTEL",
+    "score": 3252
+  },
+  {
+    "model": "Intel U300",
+    "vendor": "INTEL",
+    "score": 3240
+  },
+  {
+    "model": "Core i5-12600HX",
+    "vendor": "INTEL",
+    "score": 3231
+  },
+  {
+    "model": "Ryzen 7 7840S",
+    "vendor": "AMD",
+    "score": 3212
+  },
+  {
+    "model": "Ryzen 7 PRO 7840U",
+    "vendor": "AMD",
+    "score": 3211
+  },
+  {
+    "model": "Ryzen 7 PRO 250",
+    "vendor": "AMD",
+    "score": 3209
+  },
+  {
+    "model": "Core 5 220U",
+    "vendor": "INTEL",
+    "score": 3202
+  },
+  {
+    "model": "Ryzen 5 PRO 7540U",
+    "vendor": "AMD",
+    "score": 3197
+  },
+  {
+    "model": "Core i9-11980HK @ 2.60GHz",
+    "vendor": "INTEL",
+    "score": 3170
+  },
+  {
+    "model": "Core i5-1335U",
+    "vendor": "INTEL",
+    "score": 3135
+  },
+  {
+    "model": "Core i7-1250U",
+    "vendor": "INTEL",
+    "score": 3128
+  },
+  {
+    "model": "Core i5-1345U",
+    "vendor": "INTEL",
+    "score": 3107
+  },
+  {
+    "model": "Ryzen AI 7 350",
+    "vendor": "AMD",
+    "score": 3096
+  },
+  {
+    "model": "Core i5-13500H",
+    "vendor": "INTEL",
+    "score": 3025
+  },
+  {
+    "model": "Core i7-1360P",
+    "vendor": "INTEL",
+    "score": 3006
+  },
+  {
+    "model": "Core i9-11950H @ 2.60GHz",
+    "vendor": "INTEL",
+    "score": 2971
+  },
+  {
+    "model": "Ryzen 5 6600H",
+    "vendor": "AMD",
+    "score": 2938
+  },
+  {
+    "model": "Ryzen 9 PRO 6950H",
+    "vendor": "AMD",
+    "score": 2931
+  },
+  {
+    "model": "Ryzen 7 PRO 6850H",
+    "vendor": "AMD",
+    "score": 2897
+  },
+  {
+    "model": "Ryzen 5 6600HS Creator Edition",
+    "vendor": "AMD",
+    "score": 2887
+  },
+  {
+    "model": "Ryzen AI 9 H 365",
+    "vendor": "AMD",
+    "score": 2882
+  },
+  {
+    "model": "Ryzen 5 7535U",
+    "vendor": "AMD",
+    "score": 2874
+  },
+  {
+    "model": "Ryzen 7 7735HS",
+    "vendor": "AMD",
+    "score": 2869
+  },
+  {
+    "model": "Core i9-11900H @ 2.50GHz",
+    "vendor": "INTEL",
+    "score": 2858
+  },
+  {
+    "model": "Core i7-11850H @ 2.50GHz",
+    "vendor": "INTEL",
+    "score": 2852
+  },
+  {
+    "model": "Ryzen 9 6900HX",
+    "vendor": "AMD",
+    "score": 2842
+  },
+  {
+    "model": "Ryzen 5 7535HS",
+    "vendor": "AMD",
+    "score": 2836
+  },
+  {
+    "model": "Ryzen 7 7735H",
+    "vendor": "AMD",
+    "score": 2836
+  },
+  {
+    "model": "Ryzen 5 Pro 7535U",
+    "vendor": "AMD",
+    "score": 2825
+  },
+  {
+    "model": "Ryzen 5 6600U",
+    "vendor": "AMD",
+    "score": 2824
+  },
+  {
+    "model": "Core i5-1334U",
+    "vendor": "INTEL",
+    "score": 2812
+  },
+  {
+    "model": "Core i7-11800H @ 2.30GHz",
+    "vendor": "INTEL",
+    "score": 2807
+  },
+  {
+    "model": "Core i5-12600H",
+    "vendor": "INTEL",
+    "score": 2800
+  },
+  {
+    "model": "Ryzen 7 7736U",
+    "vendor": "AMD",
+    "score": 2796
+  },
+  {
+    "model": "Ryzen 5 7430U",
+    "vendor": "AMD",
+    "score": 2792
+  },
+  {
+    "model": "Ryzen 5 PRO 6650H",
+    "vendor": "AMD",
+    "score": 2785
+  },
+  {
+    "model": "Ryzen 9 6900HS Creator Edition",
+    "vendor": "AMD",
+    "score": 2776
+  },
+  {
+    "model": "Core i7-1255U",
+    "vendor": "INTEL",
+    "score": 2772
+  },
+  {
+    "model": "Ryzen 7 6800HS Creator Edition",
+    "vendor": "AMD",
+    "score": 2765
+  },
+  {
+    "model": "Core i5-1230U",
+    "vendor": "INTEL",
+    "score": 2765
+  },
+  {
+    "model": "Ryzen 7 7735U",
+    "vendor": "AMD",
+    "score": 2741
+  },
+  {
+    "model": "Ryzen 7 6800U",
+    "vendor": "AMD",
+    "score": 2690
+  },
+  {
+    "model": "Ryzen 9 PRO 6950HS",
+    "vendor": "AMD",
+    "score": 2689
+  },
+  {
+    "model": "Ryzen 7 PRO 6850HS",
+    "vendor": "AMD",
+    "score": 2681
+  },
+  {
+    "model": "Ryzen 5 PRO 6650U",
+    "vendor": "AMD",
+    "score": 2665
+  },
+  {
+    "model": "Ryzen 7 PRO 6860Z",
+    "vendor": "AMD",
+    "score": 2655
+  },
+  {
+    "model": "Core i3-1315U",
+    "vendor": "INTEL",
+    "score": 2642
+  },
+  {
+    "model": "Ryzen 9 6900HS",
+    "vendor": "AMD",
+    "score": 2627
+  },
+  {
+    "model": "Ryzen 7 6800H",
+    "vendor": "AMD",
+    "score": 2625
+  },
+  {
+    "model": "Core i7-11600H @ 2.90GHz",
+    "vendor": "INTEL",
+    "score": 2621
+  },
+  {
+    "model": "Core i3-1210U",
+    "vendor": "INTEL",
+    "score": 2595
+  },
+  {
+    "model": "Ryzen 7 Pro 7735U",
+    "vendor": "AMD",
+    "score": 2587
+  },
+  {
+    "model": "Ryzen 7 6800HS",
+    "vendor": "AMD",
+    "score": 2567
+  },
+  {
+    "model": "Ryzen 7 PRO 6850U",
+    "vendor": "AMD",
+    "score": 2560
+  },
+  {
+    "model": "Core i7-1270P",
+    "vendor": "INTEL",
+    "score": 2550
+  },
+  {
+    "model": "Ryzen 5 7530U",
+    "vendor": "AMD",
+    "score": 2506
+  },
+  {
+    "model": "Core i7-1260P",
+    "vendor": "INTEL",
+    "score": 2484
+  },
+  {
+    "model": "Ryzen 9 5980HX",
+    "vendor": "AMD",
+    "score": 2469
+  },
+  {
+    "model": "Core Ultra 9 285HX",
+    "vendor": "INTEL",
+    "score": 2455
+  },
+  {
+    "model": "Ryzen 9 5900HX",
+    "vendor": "AMD",
+    "score": 2438
+  },
+  {
+    "model": "Core i5-12500H",
+    "vendor": "INTEL",
+    "score": 2405
+  },
+  {
+    "model": "Ryzen 9 5900HS Creator Edition",
+    "vendor": "AMD",
+    "score": 2402
+  },
+  {
+    "model": "Core i3-1220P",
+    "vendor": "INTEL",
+    "score": 2401
+  },
+  {
+    "model": "Ryzen 5 5600H",
+    "vendor": "AMD",
+    "score": 2388
+  },
+  {
+    "model": "Core i5-1350P",
+    "vendor": "INTEL",
+    "score": 2383
+  }
+]
